@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Roboto:900,100';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
 	Stellar by HTML5 UP
@@ -125,7 +125,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -3117,17 +3117,13 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
-/* example of a comment */
-#header img {
-	/*display: block;*/
-	/*margin: 0 auto;*/
-	/*max-width: 75%;*/
-	float:left;
-}
 
-#header h1{
-	position: relative;
-}
+				#header.alt .logo img {
+					display: block;
+					margin: 0 auto;
+					max-width: 75%;
+				}
+
 		@media screen and (max-width: 1280px) {
 
 			#header {
