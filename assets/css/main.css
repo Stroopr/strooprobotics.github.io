@@ -3117,15 +3117,15 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.5em 0;
 			}
-
+/* Header */
 				#header.alt .logo img {
-					display: block;
-					margin: 0 auto;
-					max-width: 75%;
+					/*display: block;*/
+					/*margin: 0 auto;*/
+					/*max-width: 75%;*/
 					float:left;
 				}
 
-				#header.alt .logo_name h1{
+				#header.alt .logo_name{
 					position: relative;
 				}
 		@media screen and (max-width: 1280px) {
