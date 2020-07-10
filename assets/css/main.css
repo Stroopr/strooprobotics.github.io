@@ -3125,6 +3125,9 @@ input, select, textarea {
 					float:left;
 				}
 
+				#header.alt .logo_name h1{
+					position: relative;
+				}
 		@media screen and (max-width: 1280px) {
 
 			#header {
