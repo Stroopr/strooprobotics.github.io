@@ -25,11 +25,13 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, header, details, figcaption, figure,
+article, aside, details, figcaption, figure,
 footer, hgroup, menu, nav, section {
 	display: block;}
 
-
+header{
+	display: inline-block;
+}
 
 body {
 	line-height: 1;
@@ -3128,7 +3130,7 @@ input, select, textarea {
 			}
 
 				#header.alt .logo img {
-					display: inline;
+					display: block;
 					margin: 0 auto;
 					max-width: 75%;
 				}
